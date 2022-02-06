@@ -13,12 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// TODO: Make redirect
 Route::get('/', function () {
     return view('welcome');
 });
 
-// TODO: Resource controllers
 Route::get('/posts', function () {
     return view('posts.index');
 });
@@ -31,6 +29,12 @@ Route::get('/posts/x', function () {
     return view('posts.show');
 });
 
+Route::get('/posts/x/edit', function () {
+    return view('posts.edit');
+});
+
+// -----------------------------------------
+
 Route::get('/categories/create', function () {
     return view('categories.create');
 });
@@ -39,7 +43,6 @@ Route::get('/categories/x', function () {
     return view('categories.show');
 });
 
-// ----
+// -----------------------------------------
 
 Auth::routes();
-

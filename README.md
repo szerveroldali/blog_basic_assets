@@ -54,6 +54,6 @@ Előre elkészített frontend oldali elemek a Blog feladathoz.
 
 9. Nyisd meg a [http://localhost:8000/posts](http://localhost:8000/posts) oldalt, és ellenőrizd, hogy ezt a kimenetet látod-e:
 
-    ![Főoldal előnézete](https://raw.githubusercontent.com/szerveroldali/blog_basic_assets/main/preview.png)]
+    ![Főoldal előnézete](https://raw.githubusercontent.com/szerveroldali/blog_basic_assets/main/preview.png)
 
     - Ha minden megjelenik, amit a képen is látsz (gombok, ikonok, stb), akkor jól dolgoztál és sikeresen inicializáltad a blog feladat alapját. :)

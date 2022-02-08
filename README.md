@@ -10,6 +10,12 @@ Előre elkészített frontend oldali elemek a Blog feladathoz.
     composer create-project --prefer-dist laravel/laravel blog
     ```
 
+    Ezt követően lépj be a projekt mappájába:
+
+    ```shell
+    cd blog
+    ```
+
 2. Telepítsd a Laravel UI (User Interface)-t:
 
     ```shell
@@ -24,7 +30,7 @@ Előre elkészített frontend oldali elemek a Blog feladathoz.
     - Fontos az `--auth` kapcsoló is, mivel azzal kigenerálja a teljes layoutot.
     - Utána kéri, hogy adj ki parancsokat, de még ne adj ki semmit, hanem kövesd továbbra is ezt az útmutatót.
 
-4. Ezen a ponton másold be az itt lévő `public`, `resources` és `routes` mappát, rekurzívan felülírva a projektben az esetleges fájlokat.
+4. Ezen a ponton másold be az itt lévő `public`, `resources` és `routes` mappát, rekurzívan felülírva a projektben az esetleges fájlokat. Másold át a `webpack.mix.js` fájlt is.
 
 5. A Laravel UI inicializálta a `package.json`-t, azonban az npm-es csomagokat még külön telepíteni kell:
 

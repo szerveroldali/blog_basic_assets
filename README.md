@@ -30,7 +30,8 @@ Előre elkészített frontend oldali elemek a Blog feladathoz.
     - Fontos az `--auth` kapcsoló is, mivel azzal kigenerálja a teljes layoutot.
     - Utána kéri, hogy adj ki parancsokat, de még ne adj ki semmit, hanem kövesd továbbra is ezt az útmutatót.
 
-4. Ezen a ponton másold be az itt lévő `public`, `resources` és `routes` mappát, rekurzívan felülírva a projektben az esetleges fájlokat. Másold át a `webpack.mix.js` fájlt is.
+4. :warning: (Fontos) Ezen a ponton másold be az itt lévő `public`, `resources` és `routes` mappát, rekurzívan felülírva a projektben az esetleges fájlokat. Másold át a `webpack.mix.js` fájlt is.
+    - Amikor a 3. pontban kigenerálod a UI-t, akkor a `resources` mappában létrejönnek a UI-hoz tartozó blade fájlok. Ezért különösen fontos a 3. és a 4. pont egymás utánisága, vagyis az, hogy **előbb** generáld ki az alap UI-t (3. pont), és itt, a 4. pontban **írd felül** a generált fájlokat a **blog kezdőcsomag** fájljaival!
 
 5. A Laravel UI inicializálta a `package.json`-t, azonban az npm-es csomagokat még külön telepíteni kell:
 
